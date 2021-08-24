@@ -1,6 +1,6 @@
 # Implementing a Responsible AI lifecycle for cloud based MLOps
 
-<img src="repo_picture.png" alt="Repository logo" width="800"/>
+<img src="repo_picture.jpg" alt="Repository logo" width="800"/>
 
 This repository contains an end-to-end walkthrough of a Responsible AI Lifecycle.
 It is illustrated by folowing the complete ML workflow on a loan decision use case using Azure ML. 
