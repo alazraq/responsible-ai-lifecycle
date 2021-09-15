@@ -1,6 +1,6 @@
 from azureml.core import Workspace
 from azureml.core.model import Model
-
+from azureml.core.authentication import ServicePrincipalAuthentication
 import os
 
 def main():
