@@ -1,1 +1,1 @@
-az container create -g aci-demo --name aci-demo-app --image $(acrLoginServer)/demo-aci:11 --cpu 1 --memory 1 --registry-login-server $(acrLoginServer) --registry-username $(acrName) --registry-password $(acrPassword)  --ports 80
+az container create -g rg-responsible-ai --name loan-decision --image $Env:acrLoginServer/$Env:acrImage --cpu 1 --memory 1 --registry-login-server $Env:acrLoginServer --registry-username $Env:acrName --registry-password $Env:acrPassword --ports 80
